@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F0534F142A18F800E6831A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0534E142A18F800E6831A /* UIKit.framework */; };
+		00F05351142A18F800E6831A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05350142A18F800E6831A /* Foundation.framework */; };
+		00F05353142A18F800E6831A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F05352142A18F800E6831A /* CoreGraphics.framework */; };
+		00F05359142A18F800E6831A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F05357142A18F800E6831A /* InfoPlist.strings */; };
+		00F0535C142A18F800E6831A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0535B142A18F800E6831A /* main.m */; };
+		00F0535F142A18F800E6831A /* NSDateTestesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0535E142A18F800E6831A /* NSDateTestesAppDelegate.m */; };
+		00F05362142A18F900E6831A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F05360142A18F900E6831A /* MainWindow.xib */; };
+		00F05365142A18F900E6831A /* NSDateTestesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F05364142A18F900E6831A /* NSDateTestesViewController.m */; };
+		00F05368142A18F900E6831A /* NSDateTestesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F05366142A18F900E6831A /* NSDateTestesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F0534A142A18F800E6831A /* NSDateTestes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateTestes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F0534E142A18F800E6831A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00F05350142A18F800E6831A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00F05352142A18F800E6831A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00F05356142A18F800E6831A /* NSDateTestes-Info.plist */ = {isa = PBXFileReference; path = "NSDateTestes-Info.plist"; sourceTree = "<group>"; };
+		00F05358142A18F800E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00F0535A142A18F800E6831A /* NSDateTestes-Prefix.pch */ = {isa = PBXFileReference; path = "NSDateTestes-Prefix.pch"; sourceTree = "<group>"; };
+		00F0535B142A18F800E6831A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00F0535D142A18F800E6831A /* NSDateTestesAppDelegate.h */ = {isa = PBXFileReference; path = NSDateTestesAppDelegate.h; sourceTree = "<group>"; };
+		00F0535E142A18F800E6831A /* NSDateTestesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTestesAppDelegate.m; sourceTree = "<group>"; };
+		00F05361142A18F900E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		00F05363142A18F900E6831A /* NSDateTestesViewController.h */ = {isa = PBXFileReference; path = NSDateTestesViewController.h; sourceTree = "<group>"; };
+		00F05364142A18F900E6831A /* NSDateTestesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTestesViewController.m; sourceTree = "<group>"; };
+		00F05367142A18F900E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NSDateTestesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F05347142A18F800E6831A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0534F142A18F800E6831A /* UIKit.framework in Frameworks */,
+				00F05351142A18F800E6831A /* Foundation.framework in Frameworks */,
+				00F05353142A18F800E6831A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F0533F142A18F800E6831A = {
+			isa = PBXGroup;
+			children = (
+				00F05354142A18F800E6831A /* NSDateTestes */,
+				00F0534D142A18F800E6831A /* Frameworks */,
+				00F0534B142A18F800E6831A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F0534B142A18F800E6831A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F0534A142A18F800E6831A /* NSDateTestes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F0534D142A18F800E6831A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F0534E142A18F800E6831A /* UIKit.framework */,
+				00F05350142A18F800E6831A /* Foundation.framework */,
+				00F05352142A18F800E6831A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00F05354142A18F800E6831A /* NSDateTestes */ = {
+			isa = PBXGroup;
+			children = (
+				00F0535D142A18F800E6831A /* NSDateTestesAppDelegate.h */,
+				00F0535E142A18F800E6831A /* NSDateTestesAppDelegate.m */,
+				00F05360142A18F900E6831A /* MainWindow.xib */,
+				00F05363142A18F900E6831A /* NSDateTestesViewController.h */,
+				00F05364142A18F900E6831A /* NSDateTestesViewController.m */,
+				00F05366142A18F900E6831A /* NSDateTestesViewController.xib */,
+				00F05355142A18F800E6831A /* Supporting Files */,
+			);
+			path = NSDateTestes;
+			sourceTree = "<group>";
+		};
+		00F05355142A18F800E6831A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F05356142A18F800E6831A /* NSDateTestes-Info.plist */,
+				00F05357142A18F800E6831A /* InfoPlist.strings */,
+				00F0535A142A18F800E6831A /* NSDateTestes-Prefix.pch */,
+				00F0535B142A18F800E6831A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F05349142A18F800E6831A /* NSDateTestes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F0536B142A18F900E6831A /* Build configuration list for PBXNativeTarget "NSDateTestes" */;
+			buildPhases = (
+				00F05346142A18F800E6831A /* Sources */,
+				00F05347142A18F800E6831A /* Frameworks */,
+				00F05348142A18F800E6831A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDateTestes;
+			productName = NSDateTestes;
+			productReference = 00F0534A142A18F800E6831A /* NSDateTestes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F05341142A18F800E6831A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 00F05344142A18F800E6831A /* Build configuration list for PBXProject "NSDateTestes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00F0533F142A18F800E6831A;
+			productRefGroup = 00F0534B142A18F800E6831A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F05349142A18F800E6831A /* NSDateTestes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F05348142A18F800E6831A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F05359142A18F800E6831A /* InfoPlist.strings in Resources */,
+				00F05362142A18F900E6831A /* MainWindow.xib in Resources */,
+				00F05368142A18F900E6831A /* NSDateTestesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F05346142A18F800E6831A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0535C142A18F800E6831A /* main.m in Sources */,
+				00F0535F142A18F800E6831A /* NSDateTestesAppDelegate.m in Sources */,
+				00F05365142A18F900E6831A /* NSDateTestesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F05357142A18F800E6831A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F05358142A18F800E6831A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00F05360142A18F900E6831A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F05361142A18F900E6831A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		00F05366142A18F900E6831A /* NSDateTestesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F05367142A18F900E6831A /* en */,
+			);
+			name = NSDateTestesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F05369142A18F900E6831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00F0536A142A18F900E6831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		00F0536C142A18F900E6831A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateTestes/NSDateTestes-Prefix.pch";
+				INFOPLIST_FILE = "NSDateTestes/NSDateTestes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00F0536D142A18F900E6831A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateTestes/NSDateTestes-Prefix.pch";
+				INFOPLIST_FILE = "NSDateTestes/NSDateTestes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F05344142A18F800E6831A /* Build configuration list for PBXProject "NSDateTestes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F05369142A18F900E6831A /* Debug */,
+				00F0536A142A18F900E6831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F0536B142A18F900E6831A /* Build configuration list for PBXNativeTarget "NSDateTestes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F0536C142A18F900E6831A /* Debug */,
+				00F0536D142A18F900E6831A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F05341142A18F800E6831A /* Project object */;
+}
