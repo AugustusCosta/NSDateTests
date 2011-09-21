@@ -23,14 +23,14 @@
 		00F0534E142A18F800E6831A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00F05350142A18F800E6831A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00F05352142A18F800E6831A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00F05356142A18F800E6831A /* NSDateTestes-Info.plist */ = {isa = PBXFileReference; path = "NSDateTestes-Info.plist"; sourceTree = "<group>"; };
+		00F05356142A18F800E6831A /* NSDateTestes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateTestes-Info.plist"; sourceTree = "<group>"; };
 		00F05358142A18F800E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00F0535A142A18F800E6831A /* NSDateTestes-Prefix.pch */ = {isa = PBXFileReference; path = "NSDateTestes-Prefix.pch"; sourceTree = "<group>"; };
+		00F0535A142A18F800E6831A /* NSDateTestes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateTestes-Prefix.pch"; sourceTree = "<group>"; };
 		00F0535B142A18F800E6831A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00F0535D142A18F800E6831A /* NSDateTestesAppDelegate.h */ = {isa = PBXFileReference; path = NSDateTestesAppDelegate.h; sourceTree = "<group>"; };
+		00F0535D142A18F800E6831A /* NSDateTestesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateTestesAppDelegate.h; sourceTree = "<group>"; };
 		00F0535E142A18F800E6831A /* NSDateTestesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTestesAppDelegate.m; sourceTree = "<group>"; };
 		00F05361142A18F900E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		00F05363142A18F900E6831A /* NSDateTestesViewController.h */ = {isa = PBXFileReference; path = NSDateTestesViewController.h; sourceTree = "<group>"; };
+		00F05363142A18F900E6831A /* NSDateTestesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateTestesViewController.h; sourceTree = "<group>"; };
 		00F05364142A18F900E6831A /* NSDateTestesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTestesViewController.m; sourceTree = "<group>"; };
 		00F05367142A18F900E6831A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NSDateTestesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
